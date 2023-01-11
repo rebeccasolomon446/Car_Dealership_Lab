@@ -13,12 +13,12 @@ describe("manufacturer test", () => {
         expect(actual).toBe(expected);
     });
 
-    describe ('test price', () => {
+    describe ('price test', () => {
         test('assign price to car', () => {
             expect(car.price).toBe(1000);
         });
         });
-        describe ('test eng type', () => {
+        describe ('test engine type', () => {
             test('assign eng type to car', () => {
                 expect(car.engineType).toBe("engine1");
             });
